@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<title>App Kart</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<style>
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+
+#menu{
+   width: auto;
+   float: right;
+   margin-top: 20px;
+}
+
+#menu li{
+     float: left; 
+     width: 140px;
+     text-align: center;
+     list-style: none;
+     font-family: tahoma;
+     font-size: 26px;
+     margin-top: 20px;        
+}
+
+#menu li:hover{
+     font-size: 35px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 12%;
+  left: 0%;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+</style>
+
+
+<body class="w3-light-grey w3-content" style="max-width:1600px;">
+
+<!-- Navbar -->
+
+<div class="w3-top">
+ <div class="w3-bar w3-black w3-left-align w3-large" style="height: 87px">
+
+ <a href="index.php" class="w3-bar-item">
+<li onclick="myfunction().style.display='block'" class='fas fa-arrow-left' style='font-size:20px;margin-top: 20px;color: white'></li>
+<script>
+			function myFunction() {
+  			location.replace("index.php")
+			} 
+		</script>
+</a>
+<a href="sell.php"><img src="dp3.png" style="width: 90px;margin-left: 0px;margin-top: -10px"></a>
+
+<br>
+
+ </div>
+</div>
+
+<br><br><br><br>
+<br><br><br><br>
+</body>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+	
+ <p class="w3-opacity" style="text-align: center; font-size: 40px;font-family: tahoma;margin-right: 0px;margin-top: -100px;color: black">SELL</p>
+
+      <form class="w3-container w3-card w3-padding-32 w3-white"; style="margin-left: 10%;margin-right: 10%" margin-down: 555px; action="sell1.php" method="POST">
+	
+        <div class="w3-section">
+          <label style="margin-left: 22%;font-size: 16px">User name</label>
+          <input class="w3-input" name="name" style="width:55%;margin-left: 22%;font-size: 15px;font-family: tahoma;color:black" type="text" placeholder="Enter user name" required name="Name">
+        </div>
+
+
+<br>
+
+
+	<div class="w3-section">
+          <label style="margin-left: 22%;font-size: 16px">Email Id</label>
+          <input class="w3-input" name="email" style="width:55%;margin-left: 22%;font-size: 15px;font-family: tahoma;color:black" type="text" placeholder="Enter Email id" required name="Name">
+        </div>
+
+
+<br>
+
+
+
+	<div class="w3-section">
+          <label style="margin-left: 22%;font-size: 16px">Mobile Number</label>
+          <input class="w3-input" name="number" style="width:55%;margin-left: 22%;font-size: 15px;font-family: tahoma;color:black" type="text" placeholder="Enter your Mobile no" required name="Name">
+        </div>
+
+
+<br>
+
+
+ <label style="margin-left: 22%;font-size: 16px">Sex</label>&emsp;
+          <label class="radio-inline">
+      <input type="radio" name="sex" value="male" checked>Male
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="sex" value="female">Female
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="sex" value="others">Others
+    </label>
+
+
+<br>
+<br>
+<br>
+<label style="margin-left: 22%;font-size: 16px">City</label>&emsp;&emsp;&emsp;&emsp;
+<input list="browsers" name="city" placeholder="  SELECT CITY" style="height: 40px;width: 180px;border-color: black;border-radius: 5px;margin-left:5%" autocomplete="off">
+  <datalist id="browsers">
+    <option value="Coimbatore">
+    <option value="Chennai">
+    <option value="Erode">
+    <option value="Salem">
+   <option value="Madurai" />
+   <option value="Kanyakumari" />
+   <option value="Ramanathapuram" />
+   <option value="Dindugul" />
+   <option value="Puducherry" />
+   <option value="Namakal">
+    <option value="Perambalur">
+    <option value="Thanjavur">
+    <option value="Tirupur">
+    <option value="Trichy">
+    <option value="Thuthukudi">
+   <option value="vellore" />
+  
+
+  </datalist>
+          
+<br>
+<br>
+<br>
+
+<label style="margin-left: 22%;font-size: 16px">Occupation</label>
+
+<input list="occupation" name="occupation" placeholder="  SELECT OCCUPATION" style="height: 40px;width: 180px;border-color: black;border-radius: 5px;margin-left: 5%" autocomplete="off">
+  <datalist id="occupation">
+    <option value="Student">
+    <option value="Dealer">
+    <option value="Self employee">
+    <option value="Salary employee">
+   
+  
+
+  </datalist>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+        
+	
+
+        <h4 style="text-align: center"><span style="text-align: center"><button type="submit" name="sendotp" class="w3-button" style="background-color: red;width: 135px;border-radius: 12px;">Send OTP</button></span>
+   </form>
+
+
+</div>
+</div>
+</div>
+
+
+      
+ 
+
+
+</body>
+</html>
+
